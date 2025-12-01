@@ -62,19 +62,3 @@ Diagnostic Report ← Visualization Engine ← 3D Reconstruction
 
 ---
 
-## 🛠️ Installation & Setup (Local / Developer Mode)
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/yourusername/Aidentis-AI-Dental-Diagnostics-Platform.git
-cd Aidentis-AI-Dental-Diagnostics-Platform
-pip install -r requirements.txt
-GCP_PROJECT_ID=your_project_id
-GCP_BUCKET_NAME=your_bucket
-MODEL_ENDPOINT=your_vertex_ai_endpoint
-uvicorn app.main:app --reload
-POST /api/upload
-Content-Type: multipart/form-data
-POST /api/ceph/analyze
-POST /api/cbct/analyze
-POST /api/3d/reconstruct

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aidentis – AI Dental Diagnostics Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AI-powered dental diagnostics platform for orthodontic clinics, providing instant cephalometric analysis, CBCT interpretation, and 3D model generation built on Google Cloud." />
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 0; color: #123; line-height: 1.6; }
+    header, section { padding: 40px 20px; max-width: 960px; margin: 0 auto; }
+    header { background: #f5f9ff; }
+    h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+    h2 { margin-top: 2rem; }
+    .btn { display: inline-block; padding: 10px 22px; border-radius: 6px; background: #1a73e8; color: #fff; text-decoration: none; font-weight: 600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+    .card { border: 1px solid #dde4f0; border-radius: 8px; padding: 18px; background: #fff; }
+    footer { text-align: center; padding: 24px 12px; font-size: 0.9rem; color: #667; border-top: 1px solid #eef1f6; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aidentis AI Dental Diagnostics Platform</h1>
+    <p>
+      AI-powered dental diagnostics for modern orthodontic and imaging clinics.
+      Aidentis provides instant cephalometric analysis, automated CBCT interpretation
+      and interactive 3D models to improve clinical precision and patient communication.
+    </p>
+    <a class="btn" href="mailto:assylzat@aidentis.cc?subject=Aidentis%20Demo%20Request">Request a demo</a>
+  </header>
+
+  <section id="problem-solution">
+    <h2>Why Aidentis?</h2>
+    <p>
+      Traditional dental imaging workflows are manual, time-consuming and prone to measurement variation.
+      Aidentis automates landmark detection, measurements and volumetric analysis so clinicians can
+      focus on diagnosis and treatment planning instead of repetitive tasks.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>Key capabilities</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Instant cephalometric analysis</h3>
+        <p>Automatic landmark detection and measurement extraction for orthodontic cases.</p>
+      </div>
+      <div class="card">
+        <h3>CBCT scan interpretation</h3>
+        <p>AI-driven volumetric analysis and anatomical structure detection with structured reports.</p>
+      </div>
+      <div class="card">
+        <h3>3D model generation</h3>
+        <p>Generation of interactive 3D models to support treatment planning and patient education.</p>
+      </div>
+      <div class="card">
+        <h3>Patient communication</h3>
+        <p>Visual explanations and simulations that help patients understand conditions and options.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cloud">
+    <h2>Built on Google Cloud</h2>
+    <p>
+      Aidentis uses <strong>Vertex AI</strong> for model training and deployment,
+      <strong>Cloud Storage</strong> for secure imaging data handling and
+      <strong>Cloud Run</strong> for scalable, container-based inference services.
+      Access is protected with Cloud IAM, encrypted in transit and at rest, and designed to support
+      healthcare data protection requirements in multi-clinic environments.
+    </p>
+  </section>
+
+  <section id="workflow">
+    <h2>How it works</h2>
+    <p>
+      Clinics upload lateral cephalograms or CBCT scans via a secure web interface.
+      Images are preprocessed and sent to Aidentis AI models running on Google Cloud.
+      The system returns cephalometric measurements, CBCT findings, and optional 3D reconstructions,
+      which can be reviewed, exported as reports or used in chairside patient discussions.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Get in touch</h2>
+    <p>
+      We are currently working with early adopter clinics and partners in Kazakhstan and beyond.
+      If you are interested in pilots, research collaboration or distribution partnerships,
+      we would love to hear from you.
+    </p>
+    <p>
+      <strong>Email:</strong> <a href="mailto:assylzat@aidentis.cc">assylzat@aidentis.cc</a><br />
+      <strong>Website:</strong> <a href="https://aidentis.cc/">https://aidentis.cc/</a>
+    </p>
+  </section>
+
+  <footer>
+    © Aidentis. All rights reserved.
+  </footer>
+</body>
+</html>
